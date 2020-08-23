@@ -1,3 +1,19 @@
-h1 {
-    color: red;
-    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5%;
+    width: 15%;
+    background-color: #e8d3c7;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+li{
+    font-size: 20px;
+    color: #000;
+}
+
+a:link { color: #96514d; }
+a:visited { color: #deb068; }
+a:hover { color: #96514d; }
+a:active { color: #96514d; }
