@@ -1,4 +1,6 @@
-body{background-color: #fff;}
+body{background-color: #fff;
+font-size: large;
+}
 
 /*見出し*/
 h1{font-size: 50px;
@@ -24,6 +26,7 @@ ul{
   }
 li{
     font-size: 20px;
+    line-height: 3;
   }
 li  a:link { color: #9e7e7c; }
 li  a:visited { color: #9e7e7c; }
@@ -32,7 +35,8 @@ li  a:hover { color: #9e7e7c;
   bottom: 1px;
   right: 1px;
   text-decoration: none;
-  background-color: #fff;}
+  background-color: #fff;
+}
 li  a:active { color: #9e7e7c; }
 li a {text-decoration: none;display: block;}
 
@@ -59,3 +63,13 @@ right: 1px;
 text-decoration: none;}
 a:active { color: #96514d; }
 a {text-decoration: none;}
+
+/*font*/
+@font-face{font-family: コーポレート明朝;
+  src: url(https://cldup.com/xjdxknJUFF.woff2), url(https://cldup.com/Wfkrmav6ZI.woff), url(https://cldup.com/owpNPilbJQ.eot);}
+  /*-----------------------------------
+  配布元：http://logotype.jp/osusume-font-corpmin.html
+  ライセンス：https://ja.osdn.net/projects/opensource/wiki/SIL_Open_Font_License_1.1
+  CSS配布：http://uranai.nosv.org/u.php/novel/only_font/
+  -------------------------------------*/
+  *{font-family: コーポレート明朝,Times New Roman,游明朝,游明朝体,serif !important;}
