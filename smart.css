@@ -3,7 +3,7 @@ body{background-color: #fff;
     }
     
     /*見出し*/
-    h1{font-size: 600px;
+    h1{font-size: 300px;
        margin: 0;
        padding: 1%;
        width: 100%;
@@ -11,16 +11,16 @@ body{background-color: #fff;
        position: fixed;
       }
     h1 a:link,h1 a:visited,h1 a:hover,h1 a:active{color: #63302d;}
-    h2{font-size: 300px;}
+    h2{font-size: 150px;}
     
     /*横メニュー*/
     ul{
         list-style-type: none;
         margin: 1%;
         padding: 1%;
-        width: 100%;
+        width: 320px;
         background-color: #f7edeb;
-        height: 50%;
+        height: 150px;
         overflow: auto;
       }
     li{
